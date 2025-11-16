@@ -36,7 +36,6 @@ def translate_content(content: str) -> tuple[bool, str]:
     return True, content
 
 
-from __future__ import annotations
 from typing import Tuple
 import os, json, re
 
