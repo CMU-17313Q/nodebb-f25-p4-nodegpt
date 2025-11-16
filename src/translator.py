@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 def translate_content(content: str) -> tuple[bool, str]:
     if content == "这是一条中文消息":
         return False, "This is a Chinese message"
@@ -34,7 +36,6 @@ def translate_content(content: str) -> tuple[bool, str]:
     return True, content
 
 
-from __future__ import annotations
 from typing import Tuple
 import os, json, re
 
