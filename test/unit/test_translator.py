@@ -2,6 +2,7 @@ from src.translator import translate_content
 from unittest.mock import patch
 
 
+
 @patch("src.translator.get_translation")
 @patch("src.translator.get_language")
 def test_chinese(mock_get_language, mock_get_translation):
